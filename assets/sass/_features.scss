@@ -1,0 +1,41 @@
+#features {
+  background-color: white;
+  width: 50%;
+  height: 1100px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: -55px;
+  border-radius: 2%;
+}
+
+
+#togglepackages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  //border: 1px red solid;
+  height: 100px;
+  color: grey;
+  }
+
+
+
+
+#free {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  text-decoration: underline grey;
+  color: $font-c;
+}
+
+#inlcuded {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  color: grey;
+
+}

@@ -1,0 +1,22 @@
+#banner {
+height: 500px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+ button {
+   background-image: linear-gradient(to bottom right, #438ee1, #973999);
+   border-radius: 0 100px 100px 0;
+   margin-left: -5px;
+ }
+}
+
+.form-inline {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  .form-control {
+    width: 500px;
+    border: 0;
+    border-radius: 100px 0 0 100px;
+  }
+}

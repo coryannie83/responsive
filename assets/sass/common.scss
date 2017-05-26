@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?Family=Abril+Fatface');
+
+$font-family: "Whitney SSm A", "Whitney SSm B", Helvetica, Arial, sans-serif;
+$page-bg-color: #F7F2E0;
+$page-text-color: black;
+$font-c: #5DADE2;
+
+
+
+
+@import "top";
+@import "nav";
+@import "banner";
+@import "features";
+@import "featureitems";
+@import "faq";
+
+body {
+  background-color: $page-bg-color;
+  color: $page-text-color;
+}
+
+
+.cardheader {
+  color: $font-c;
+}
+
+.card {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 100%;
+      //border: 1px blue solid;
+      margin-bottom: 20px;
+      background-color: white;
+      padding: 15px 15px 15px 15px;
+    }
+
+.toggle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 50px;
+  width: 25%;
+  border-color: #5DADE2;
+  border: 2px #5DADE2 solid;
+  padding: 10px 10px 10px 10px;
+  color: $font-c;
+}
